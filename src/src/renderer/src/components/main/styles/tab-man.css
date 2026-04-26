@@ -1,0 +1,115 @@
+@import "../../../assets/base.css";
+
+.tab-man-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    font-size: 0.75rem;
+    user-select: none;
+    /* Chrome, Safari, Edge (基于 Chromium) */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Firefox */
+    scrollbar-width: none;
+    /* IE 和 旧版 Edge */
+    -ms-overflow-style: none;
+    overflow-x: scroll;
+}
+
+.tab {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #f3f3f3;
+    cursor: pointer;
+    color: #8e8e8e;
+    white-space: nowrap;
+}
+
+.tab:hover {
+    background-color: #f3f3f3;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.tab-activated {
+    border-bottom: 3px solid var(--main-color);
+    font-weight: bold;
+    color: var(--main-color);
+    cursor: pointer;
+    height: 27px;
+}
+
+.tab-activated:hover {
+    background-color: rgba(var(--main-color-R), var(--main-color-G), var(--main-color-B), 0.06);
+    color: var(--main-color);
+}
+
+.tab-icon {
+    width: 24px;
+    height: 24px;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.block {
+    width: 1%;
+    border-right: 0.5px solid #e3e3e3;
+}
+
+.close-tab {
+    color: #8e8e8e !important;
+    font-weight: lighter !important;
+    font-size: 1rem !important;
+    margin-left: 5px;
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-tab:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.tab-scroller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.scroll-left-right {
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: var(--main-color);
+}
+
+.scroll-left-right:hover {
+    background-color: rgba(var(--main-color-R), var(--main-color-G), var(--main-color-B), 0.1);
+    cursor: pointer;
+}
+
+.tab-scroller-sticky {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    line-height: 1;
+    background-color: white;
+}

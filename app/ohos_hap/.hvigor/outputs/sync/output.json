@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "ohos-module-electron": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/src/main",
+        "RESOURCES_PATH": [
+          "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "nativeLib": {
+          "collectAllLibs": true
+        },
+        "arkOptions": {},
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-web_engine": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/src/main",
+        "RESOURCES_PATH": [
+          "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "nativeLib": {
+          "collectAllLibs": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/build",
+    "BUNDLE_NAME": "com.scottsmith.ame",
+    "VERSION_CODE": 120,
+    "VERSION_NAME": "1.2.0",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "electron",
+        "srcPath": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap"
+      },
+      {
+        "name": "web_engine",
+        "srcPath": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine",
+        "belongProjectPath": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.5(17)",
+            "compatibleSdkVersionStage": "release",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "nativeLib": {
+                "collectAllLibs": true
+              }
+            },
+            "targetSdkVersion": "6.0.0(20)"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ],
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.cer",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B13BC960BD2F75C3683EE02963A015BA197732495FED25FC4A8DEC9B8FBD85B9209139846FC03FF",
+              "profile": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.p12",
+              "storePassword": "0000001BC86DA53B86D81AC354023BA7C2AEE98ABF4540438D1A0CB947959F796131739934AF1718FE387C"
+            }
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "electron",
+          "srcPath": "./electron",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "web_engine",
+          "srcPath": "./web_engine"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}
