@@ -306,6 +306,7 @@ export const afterChosenFile = (rootState, result, isHistoryMethod = false) => {
                         try {
                             // let returnFromInputMdzPasswordDialog = await window.fileManPreload.activateInputMdzPasswordDialog(promTitle, promContent);
                             let returnFromInputMdzPasswordDialog = await showPasswordPrompt(promTitle, promContent);
+                            console.log("密码是：", returnFromInputMdzPasswordDialog);
                             if (returnFromInputMdzPasswordDialog) {
                                 let userMdzPassword = returnFromInputMdzPasswordDialog;
                                 // 开始尝试用输入的密码打开加密mdz

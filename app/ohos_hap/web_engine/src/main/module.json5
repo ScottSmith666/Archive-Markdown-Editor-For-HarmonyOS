@@ -29,9 +29,6 @@
         "name": "ohos.permission.ACCESS_BIOMETRIC"
       },
       {
-        "name": "ohos.permission.FILE_ACCESS_PERSIST"
-      },
-      {
         "name": "ohos.permission.PRIVACY_WINDOW"
       },
       {
@@ -51,9 +48,6 @@
       },
       {
         "name": "ohos.permission.LOCK_WINDOW_CURSOR"
-      },
-      {
-        "name": "ohos.permission.WEB_NATIVE_MESSAGING"
       },
       {
         "name": "ohos.permission.READ_PASTEBOARD",
@@ -88,76 +82,6 @@
       {
         "name": "ohos.permission.READ_WRITE_DESKTOP_DIRECTORY",
         "reason": "$string:desktop_dir",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.LOCATION",
-        "reason": "$string:location",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.APPROXIMATELY_LOCATION",
-        "reason": "$string:location",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
-        "reason": "$string:location",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.MICROPHONE",
-        "reason": "$string:microphone",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.CAMERA",
-        "reason": "$string:camera",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.ACCESS_BLUETOOTH",
-        "reason": "$string:access_bluetooth",
-        "usedScene": {
-          "abilities": [
-            "FormAbility"
-          ],
-          "when":"always"
-        }
-      },
-      {
-        "name": "ohos.permission.CUSTOM_SCREEN_CAPTURE",
-        "reason": "$string:screen_capture",
         "usedScene": {
           "abilities": [
             "FormAbility"

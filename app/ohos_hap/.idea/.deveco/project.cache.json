@@ -2,7 +2,7 @@
 	"CommonInfo":{
 		"project.ide.version":"6.0.2.642",
 		"current.select.product":"default",
-		"current.select.buildMode":"",
+		"current.select.buildMode":"release",
 		"crossplatform.projectType":""
 	},
 	"BuildOptions":{
@@ -11,6 +11,6 @@
 		"BUILD_PATH":{
 			"OUTPUT_PATH":"/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/build/outputs/default"
 		},
-		"SELECT_BUILD_MODE":""
+		"SELECT_BUILD_MODE":"release"
 	}
 }

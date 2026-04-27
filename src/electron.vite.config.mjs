@@ -14,7 +14,6 @@ export default defineConfig({
             minify: 'esbuild',
             esbuildOptions: {
                 minify: true,
-                drop: ['console', 'debugger'], // 移除 console.log 和 debugger
             },
         },
         resolve: {

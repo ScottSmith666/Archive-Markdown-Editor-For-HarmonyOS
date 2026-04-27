@@ -24,7 +24,7 @@
           "SOURCE_MAP_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/electron/build/default/intermediates/source_map/default"
         },
         "BUILD_OPTION": {
-          "debuggable": true
+          "debuggable": false
         }
       },
       "ohosTest": {
@@ -53,13 +53,19 @@
     },
     "BUILD_OPTION": {
       "default-default": {
-        "debuggable": true,
+        "debuggable": false,
         "copyFrom": "default",
         "nativeLib": {
           "collectAllLibs": true
         },
-        "arkOptions": {},
-        "name": "debug"
+        "arkOptions": {
+          "obfuscation": {
+            "ruleOptions": {
+              "enable": false
+            }
+          }
+        },
+        "name": "release"
       }
     },
     "BUILD_PROFILE_OPT": {
@@ -73,10 +79,7 @@
           "arkOptions": {
             "obfuscation": {
               "ruleOptions": {
-                "enable": true,
-                "files": [
-                  "./obfuscation-rules.txt"
-                ]
+                "enable": false
               }
             }
           }
@@ -123,18 +126,28 @@
           "SOURCE_MAP_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ohos_hap/web_engine/build/default/intermediates/source_map/default"
         },
         "BUILD_OPTION": {
-          "debuggable": true
+          "debuggable": false
         }
       }
     },
     "BUILD_OPTION": {
       "default-default": {
-        "debuggable": true,
+        "debuggable": false,
         "copyFrom": "default",
         "nativeLib": {
           "collectAllLibs": true
         },
-        "name": "debug"
+        "name": "release",
+        "arkOptions": {
+          "obfuscation": {
+            "ruleOptions": {
+              "enable": false
+            },
+            "consumerFiles": [
+              "./consumer-rules.txt"
+            ]
+          }
+        }
       }
     },
     "BUILD_PROFILE_OPT": {
@@ -146,10 +159,7 @@
           "arkOptions": {
             "obfuscation": {
               "ruleOptions": {
-                "enable": true,
-                "files": [
-                  "./obfuscation-rules.txt"
-                ]
+                "enable": false
               },
               "consumerFiles": [
                 "./consumer-rules.txt"
@@ -215,7 +225,7 @@
                 "collectAllLibs": true
               }
             },
-            "targetSdkVersion": "6.0.0(20)"
+            "targetSdkVersion": "6.0.2(22)"
           }
         ],
         "buildModeSet": [
@@ -231,13 +241,13 @@
             "name": "default",
             "type": "HarmonyOS",
             "material": {
-              "certpath": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.cer",
-              "keyAlias": "debugKey",
-              "keyPassword": "0000001B13BC960BD2F75C3683EE02963A015BA197732495FED25FC4A8DEC9B8FBD85B9209139846FC03FF",
-              "profile": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.p7b",
+              "storeFile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
+              "storePassword": "00000026501F7DD4AD1B3F07FFCCCA0D0771AF841AA24786224677B7DB5934AE796C3BF0727D01FB71610966E025B2B9C3F478C1571C",
+              "keyAlias": "ame_ssmith-debug",
+              "keyPassword": "00000026F8D73C3845ED44E2548F18A94A94D293B8AD41270FECB67D34F1223A8DDFB209DFAB1BD5B8A512D75EE704DF5887DA469976",
               "signAlg": "SHA256withECDSA",
-              "storeFile": "/Users/scottsmith/.ohos/config/default_ohos_hap_MxDNK1k9XgndqfKyU0TANfDp76adcozB05kkPsKSzF8=.p12",
-              "storePassword": "0000001BC86DA53B86D81AC354023BA7C2AEE98ABF4540438D1A0CB947959F796131739934AF1718FE387C"
+              "profile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-ss-debugDebug.p7b",
+              "certpath": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
             }
           }
         ]
