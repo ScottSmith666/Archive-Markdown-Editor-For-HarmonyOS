@@ -24,7 +24,7 @@ export const mainWindow = () => {
         },
     });
 
-    main.webContents.openDevTools({mode:'right'});
+    // main.webContents.openDevTools({mode:'right'});
 
     main.on("ready-to-show", () => {
         main.show();

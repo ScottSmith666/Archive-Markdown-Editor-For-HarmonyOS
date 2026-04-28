@@ -218,8 +218,10 @@ export const fileMan = {
                                     object: {
                                         'kind': 'tip',
                                         'tipLevel': 'fail',
-                                        'content': rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.saveFailed,
-                                        'showTimeSecond': rootState.lifecycle.tipDisplayTime
+                                        'content': copyResult.message.includes("operation not permitted, copyfile")
+                                            ? rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.cannotSaveMdz
+                                            : rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.saveFailed,
+                                        'showTimeSecond': 5
                                     }
                                 });
                                 commit('changeFileStoreData', true);
@@ -517,8 +519,10 @@ export const fileMan = {
                                         object: {
                                             'kind': 'tip',
                                             'tipLevel': 'fail',
-                                            'content': rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.saveFailed,
-                                            'showTimeSecond': rootState.lifecycle.tipDisplayTime
+                                            'content': copyResult.message.includes("operation not permitted, copyfile")
+                                                ? rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.cannotSaveToMdz
+                                                : rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.saveFailed,
+                                            'showTimeSecond': 5
                                         }
                                     });
                                     commit('changeFileStoreData', true);
@@ -813,8 +817,10 @@ export const fileMan = {
                                         object: {
                                             'kind': 'tip',
                                             'tipLevel': 'fail',
-                                            'content': '保存失败！',
-                                            'showTimeSecond': rootState.lifecycle.tipDisplayTime
+                                            'content': copyResult.message.includes("operation not permitted, copyfile")
+                                                ? rootState.i18n.langPackage[rootState.settings.lang].dialog.activeTip.cannotSaveToMdz
+                                                : copyResult.message,
+                                            'showTimeSecond': 5
                                         }
                                     });
                                     commit('changeFileStoreData', true);

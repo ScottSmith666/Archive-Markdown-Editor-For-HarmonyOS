@@ -369,7 +369,7 @@ const vFocus = {
                            v-model="saveName">
                     <div style="width: 15px;"></div>
                     <select class="save-as-input" @input="store.state.file.saveAsError = ''" id="ext" name="ext" style="flex: 1; width: 0;" v-model="saveExt">
-                        <option value="mdz"
+                        <option value="mdz" selected
                                 v-if="store.state.tab.tabList.get(store.state.tab.currentOpenedPageId).get('isExistFile')
                                 ? store.state.tab.tabList.get(store.state.tab.currentOpenedPageId).get('path').split('&').pop().split('.').pop() === 'mdz'
                                 : true">
@@ -377,7 +377,7 @@ const vFocus = {
                                 store.state.i18n.langPackage[store.state.settings.lang].dialog.saveAs.selectOptions.mdz
                             }}
                         </option>
-                        <option value="md"
+                        <option value="md" selected
                                 v-if="store.state.tab.tabList.get(store.state.tab.currentOpenedPageId).get('isExistFile')
                                 ? store.state.tab.tabList.get(store.state.tab.currentOpenedPageId).get('path').split('&').pop().split('.').pop() !== 'mdz'
                                 : true">

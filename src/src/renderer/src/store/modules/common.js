@@ -160,7 +160,7 @@ export const tgModel = (rootState, object) => {
 };
 
 export const actModel = (rootState, object) => {
-    // object: {kind: "...", tipLevel: "...", content: "...", showTimeSecond: %d}
+    // object: {kind: "...", tipLevel: "...", content: "...", showTimeSecond: %d} showTimeSecond单位是秒，为可选参数
     if (object.kind === 'loading') {  // kind是提示框的类型，分为loading、donate和tip，none则是仅弹出背景模态框
         rootState.lifecycle.loadingContent = object.content;
         rootState.lifecycle.showLoading = !rootState.lifecycle.showLoading;
@@ -171,7 +171,8 @@ export const actModel = (rootState, object) => {
         setTimeout(() => {
             rootState.lifecycle.showTip = !rootState.lifecycle.showTip;
             rootState.lifecycle.showModal = !rootState.lifecycle.showModal;
-        }, object.showTimeSecond * 1000);
+        }, object.showTimeSecond
+            ? object.showTimeSecond * 1000 : rootState.lifecycle.tipDisplayTime * 1000);
     }
 };
 

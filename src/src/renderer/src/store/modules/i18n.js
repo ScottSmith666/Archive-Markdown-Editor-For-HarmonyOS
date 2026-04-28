@@ -86,6 +86,8 @@ export const i18n = {
                             "successPasteVideo": '视频插入成功，请在编辑器内粘贴以显示',
                             "successPasteAudio": '音频插入成功，请在编辑器内粘贴以显示',
                             "successPasteFile": '可下载文件插入成功，请在编辑器内粘贴以显示',
+                            "cannotSaveToMdz": '无法在内容包含多媒体语句（如`![...](...)`）的情况下将非mdz文件另存为mdz文件，请删除所有多媒体语句再尝试保存',
+                            "cannotSaveMdz": '请不要在mdz文件内编写含绝对路径的多媒体语句（如`![...](/path/to/a.jpg)`），请删除它，并前往 菜单栏 > 媒体 正确引入多媒体文件',
                         },
                         "loading": {
                             "open": '正在打开文件...',
@@ -327,6 +329,8 @@ export const i18n = {
                             "successPasteVideo": '影片插入成功，請在編輯器內貼上以顯示',
                             "successPasteAudio": '音訊插入成功，請在編輯器內貼上以顯示',
                             "successPasteFile": '可下載檔案插入成功，請在編輯器內貼上以顯示',
+                            "cannotSaveToMdz": '無法在內容包含多媒體語句（如`![...](...)`）的情況下將非mdz文件另存為mdz文件，請刪除所有多媒體語句再嘗試儲存',
+                            "cannotSaveMdz": '請不要在mdz檔案內編寫包含絕對路徑的多媒體語句（如`![...](/path/to/a.jpg)`），請刪除它，並前往 功能表列 > 媒體 正確引入多媒體文件',
                         },
                         "loading": {
                             "open": '正在開啟檔案...',
@@ -568,6 +572,8 @@ export const i18n = {
                             "successPasteVideo": 'Video inserted successfully. Please paste it into the editor to display.',
                             "successPasteAudio": 'Audio inserted successfully. Please paste it into the editor to display.',
                             "successPasteFile": 'Other file inserted successfully. Please paste it into the editor to display.',
+                            "cannotSaveToMdz": 'Unable to save a non-.mdz file as an .mdz file if the content contains multimedia statements (such as `![...](...)`). Please delete all multimedia statements and try saving again.',
+                            "cannotSaveMdz": 'Please do not include multimedia statements containing absolute paths in your .mdz files (such as `![...](/path/to/a.jpg)`). Please delete them and go to Menu Bar > Media to correctly import the multimedia file.',
                         },
                         "loading": {
                             "open": 'Opening...',

@@ -77,21 +77,26 @@ const openUsageByHotkey = (e) => {
 
 const insertMedia = async (kind) => {
     let mediaPrefix = "";
+    let returnTipContent = "";
     if (kind === 'image') {
         mediaPrefix = '![]($MDZ_MEDIA/';
+        returnTipContent = store.state.i18n.langPackage[store.state.settings.lang].dialog.activeTip.successPasteImage;
     } else if (kind === 'video') {
         mediaPrefix = '![${video}:]($MDZ_MEDIA/';
+        returnTipContent = store.state.i18n.langPackage[store.state.settings.lang].dialog.activeTip.successPasteVideo;
     } else if (kind === 'audio') {
         mediaPrefix = '![${audio}:]($MDZ_MEDIA/';
+        returnTipContent = store.state.i18n.langPackage[store.state.settings.lang].dialog.activeTip.successPasteAudio;
     } else if (kind === 'file') {
         mediaPrefix = '![${file}:]($MDZ_MEDIA/';
+        returnTipContent = store.state.i18n.langPackage[store.state.settings.lang].dialog.activeTip.successPasteFile;
     }
     let currentMdzPath = store.state.tab.tabList.get(store.state.tab.currentOpenedPageId).get('path').split('&').pop().replace("filepath=", "");
     let res = await window.fileManPreload.streamWriteFile(currentMdzPath);  // 返回：{success: true/false, message: 媒体文件名}
     if (res.success) {
         navigator.clipboard.writeText(mediaPrefix + res.message + ')').then(() => {
             store.commit('autoTips', {'kind': 'tip', tipLevel: "success",
-                content: store.state.i18n.langPackage[store.state.settings.lang].dialog.activeTip.successPasteImage});
+                content: returnTipContent});
         }).catch(err => {
             store.commit('autoTips', {'kind': 'tip', tipLevel: "fail", content: '插入失败！ Insert failed!'});
         });

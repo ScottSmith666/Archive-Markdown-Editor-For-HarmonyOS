@@ -125,7 +125,7 @@ const sortHistory = computed(() => {
                             </svg>
                         </div>
                         <div style="width: 5px;"></div>
-                        <div class="powered-text">7-Zip</div>
+                        <div class="powered-text">p7zip</div>
                     </div>
                     <div class="powered-item">
                         <div>
@@ -190,7 +190,7 @@ const sortHistory = computed(() => {
                             </svg>
                         </div>
                         <div style="width: 5px;"></div>
-                        <div class="powered-text">Electron</div>
+                        <div class="powered-text">Electron for HarmonyOS</div>
                     </div>
                     <div class="powered-item">
                         <div>
