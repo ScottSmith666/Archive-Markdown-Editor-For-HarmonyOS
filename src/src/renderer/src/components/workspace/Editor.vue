@@ -88,7 +88,9 @@ onMounted(() => {
         autoIndent: "advanced",
         formatOnPaste: true,
         dragAndDrop: false,
-
+        padding: {
+            bottom: 50
+        },
         // 可调节属性
         tabSize: store.state.settings.userSettings.editor_tab_size,
         fontSize: Number(store.state.settings.userSettings.editor_font_size),

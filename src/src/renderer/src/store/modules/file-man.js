@@ -205,6 +205,9 @@ export const fileMan = {
                                     }
                                 }
                             } else {
+                                if (editsCopies[2].length > 0) {
+                                    await replaceIdToOriginCode(currentPageMonacoEditorModel, editsCopies[2]);
+                                }
                                 // 发送错误信息
                                 console.error(copyResult.message);
                                 // 停止加载
@@ -506,6 +509,10 @@ export const fileMan = {
                                         }
                                     }
                                 } else {
+                                    if (editsCopies[2].length > 0) {
+                                        console.log("开始替换了replaceIdToOriginCode");
+                                        await replaceIdToOriginCode(currentPageMonacoEditorModel, editsCopies[2]);
+                                    }
                                     // 发送错误信息
                                     console.error(copyResult.message);
                                     // 停止加载
@@ -804,6 +811,9 @@ export const fileMan = {
                                         }
                                     }
                                 } else {
+                                    if (editsCopies[2].length > 0) {
+                                        await replaceIdToOriginCode(currentPageMonacoEditorModel, editsCopies[2]);
+                                    }
                                     // 发送错误信息
                                     console.error(copyResult.message);
                                     // 停止加载
