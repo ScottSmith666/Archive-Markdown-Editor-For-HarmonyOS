@@ -241,13 +241,13 @@
             "name": "default",
             "type": "HarmonyOS",
             "material": {
-              "storeFile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
-              "storePassword": "000000269A23F6D9EDE2863A24FAD0B06C7CDC288DE235B89282A554628A8CAEBBF628F8007411E10F3C948C481E353C56F6EE9D7CD6",
-              "keyAlias": "ame_ssmith-debug",
-              "keyPassword": "000000265E7504481ECB4533F87BB4C7B5201C44D82357B7AAAC810CE8BD409C1199303995632E7E674B147CE5086B321318FBFEB4BF",
+              "storeFile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/ame.p12",
+              "storePassword": "000000201C8D0744F2AE7FF34B2E2F243EB3A40B6583773DE2F31C202619586214727448ABCF552D85908A7F606CDDA0",
+              "keyAlias": "ame_ssmith",
+              "keyPassword": "00000020721C22D3D237D5817FCAB06725406D431439F5F21B2E9400278C2CF8B793F12B0C6AAB0F10E5026D0CD41FB5",
               "signAlg": "SHA256withECDSA",
-              "profile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-ss-debugDebug.p7b",
-              "certpath": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
+              "profile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
+              "certpath": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
             }
           }
         ]
