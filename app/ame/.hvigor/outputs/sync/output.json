@@ -186,8 +186,8 @@
     "SELECT_PRODUCT_NAME": "default",
     "MODULE_BUILD_DIR": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ame/build",
     "BUNDLE_NAME": "com.scottsmith.ame",
-    "VERSION_CODE": 120,
-    "VERSION_NAME": "1.2.0",
+    "VERSION_CODE": 121,
+    "VERSION_NAME": "1.2.1",
     "BUILD_PATH": {
       "OUTPUT_PATH": "/Volumes/Execute/Files/project/ame_new/archive_markdown_editor_hmos/app/ame/build/outputs/default"
     },
@@ -241,13 +241,13 @@
             "name": "default",
             "type": "HarmonyOS",
             "material": {
-              "storeFile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/ame.p12",
-              "storePassword": "000000201C8D0744F2AE7FF34B2E2F243EB3A40B6583773DE2F31C202619586214727448ABCF552D85908A7F606CDDA0",
-              "keyAlias": "ame_ssmith",
-              "keyPassword": "00000020721C22D3D237D5817FCAB06725406D431439F5F21B2E9400278C2CF8B793F12B0C6AAB0F10E5026D0CD41FB5",
+              "storeFile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
+              "storePassword": "00000026ADEB7A9D8E6E3A6E9F4FB51633B89C85EB8B9530AFE9FC4945B26C836BBB6CF9CD5BDEF4D4EB702B064BFD205BADCD283BEC",
+              "keyAlias": "ame_ssmith-debug",
+              "keyPassword": "000000269D7756B3EBE6D91523704DBF90E93339788F24C549F1AF4733A8F1B064AE699FADF89D8F6372D655712D8E8D5F9E4F695EAA",
               "signAlg": "SHA256withECDSA",
-              "profile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
-              "certpath": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
+              "profile": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/ame-ss-debugDebug.p7b",
+              "certpath": "/Volumes/Execute/Files/project/ame_new/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
             }
           }
         ]

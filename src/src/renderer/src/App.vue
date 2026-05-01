@@ -18,9 +18,6 @@ const setPasswordAgain = ref("");
 
 // mounted
 onMounted(async () => {
-    // 获得权限
-    await window.permissionsPreload.getPermissions();
-
     let wtl = await window.loadLangPreload.whatLang();
     console.log("什么语言：", wtl);
 

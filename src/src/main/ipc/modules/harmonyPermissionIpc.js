@@ -6,6 +6,7 @@ export const harmonyPermissionIpc = () => {
         const documentsPath = app.getPath('documents');
         const downloadsPath = app.getPath('downloads');
         const desktopPath = app.getPath('desktop');
+        await systemPreferences.requestSystemPermission('pasteboard');
         await systemPreferences.requestDirectoryPermission(documentsPath);
         await systemPreferences.requestDirectoryPermission(downloadsPath);
         await systemPreferences.requestDirectoryPermission(desktopPath);

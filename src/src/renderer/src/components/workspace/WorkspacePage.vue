@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import {onMounted, ref} from "vue";
 import Editor from "./Editor.vue";
 import Viewer from "./Viewer.vue";
 import { useStore } from 'vuex';

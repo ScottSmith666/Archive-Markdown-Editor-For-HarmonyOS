@@ -16,6 +16,10 @@ onMounted(() => {
     loadHistory();
 });
 
+const getPermissions = async () => {
+    await window.permissionsPreload.getPermissions();
+};
+
 // methods
 const loadHistory = () => {
     // 加载历史记录
@@ -90,13 +94,13 @@ const sortHistory = computed(() => {
                 <div class="separator"></div>
                 <!--New File-->
                 <div
-                    @click="store.commit('addTabPage', {'pageType': 'file',
+                    @click="getPermissions(); store.commit('addTabPage', {'pageType': 'file',
                     'pageTitle': store.state.i18n.langPackage[store.state.settings.lang].tabBar.untitled, 'isExistFile': false})"
                     class="options" id="new"><span class="options-icon">㊢</span>
                     {{ store.state.i18n.langPackage[store.state.settings.lang].welcomePage.startButtonGroup.new }}
                 </div>
                 <!--Open-->
-                <div class="options" id="open" @click="store.dispatch('activateOpenFileDialogAction')"><span
+                <div class="options" id="open" @click="getPermissions(); store.dispatch('activateOpenFileDialogAction')"><span
                     class="options-icon">㊠</span>
                     {{ store.state.i18n.langPackage[store.state.settings.lang].welcomePage.startButtonGroup.open }}
                 </div>
@@ -260,7 +264,7 @@ const sortHistory = computed(() => {
                             <div>
                                 <div>
                                     <!--File name-->
-                                    <div class="access-file" @click="openHistoryFile(item.filePath, item.fileName);">
+                                    <div class="access-file" @click="getPermissions(); openHistoryFile(item.filePath, item.fileName);">
                                         {{ item.fileName }}
                                     </div>
                                     <!--File path-->

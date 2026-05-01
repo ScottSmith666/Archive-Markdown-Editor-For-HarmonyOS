@@ -5,6 +5,10 @@ import {useStore} from 'vuex';
 const store = useStore();
 
 // methods
+const getPermissions = async () => {
+    await window.permissionsPreload.getPermissions();
+};
+
 const closeCurrentPage = () => {
     let currentPage = store.state.tab.tabList.get(store.state.tab.currentOpenedPageId);
     store.commit('closeTabPage',
@@ -24,7 +28,7 @@ const save = () => {
     }
 };
 
-const openUsageByHotkey = (e) => {
+const openUsageByHotkey = async (e) => {
     let currentPage = store.state.tab.tabList.get(store.state.tab.currentOpenedPageId);
     // Ctrl/Command + Shift + H打开Archive Markdown Editor使用指南
     if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'h' || e.key === 'H')) {
@@ -37,6 +41,7 @@ const openUsageByHotkey = (e) => {
     // Ctrl/Command + N新建文件
     if ((e.ctrlKey || e.metaKey) && (e.key === 'n' || e.key === 'N')) {
         e.preventDefault();
+        await getPermissions();
         store.commit('addTabPage', {'pageType': 'file',
             'pageTitle': store.state.i18n.langPackage[store.state.settings.lang].tabBar.untitled, 'isExistFile': false});
     }
@@ -316,14 +321,14 @@ onMounted(() => {
                         <div id="file-expand" class="upper menu" style="margin-left: -10px;"
                              v-if="store.state.menu.fileMenuStyleStatus">
                             <div class="menu-element" id="main-menu-new"
-                                 @click="store.commit('addTabPage',
+                                 @click="getPermissions(); store.commit('addTabPage',
                                  {'pageType': 'file',
                                  'pageTitle': store.state.i18n.langPackage[store.state.settings.lang].tabBar.untitled, 'isExistFile': false});
                                  store.commit('mainManuAllHide');">
                                 <p class="fonts">{{ store.state.i18n.langPackage[store.state.settings.lang].menuBar.file.subCaptions.new }}</p>
                             </div>
                             <div class="menu-element" id="main-menu-open"
-                                 @click="store.dispatch('activateOpenFileDialogAction'); store.commit('mainManuAllHide');">
+                                 @click="getPermissions(); store.dispatch('activateOpenFileDialogAction'); store.commit('mainManuAllHide');">
                                 <p class="fonts">{{ store.state.i18n.langPackage[store.state.settings.lang].menuBar.file.subCaptions.open }}</p>
                             </div>
                             <template v-if="store.state.tab.tabList.get(store.state.tab.currentOpenedPageId)

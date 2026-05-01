@@ -153,6 +153,7 @@ const harmonyPermissionIpc = () => {
     const documentsPath = electron.app.getPath("documents");
     const downloadsPath = electron.app.getPath("downloads");
     const desktopPath = electron.app.getPath("desktop");
+    await electron.systemPreferences.requestSystemPermission("pasteboard");
     await electron.systemPreferences.requestDirectoryPermission(documentsPath);
     await electron.systemPreferences.requestDirectoryPermission(downloadsPath);
     await electron.systemPreferences.requestDirectoryPermission(desktopPath);

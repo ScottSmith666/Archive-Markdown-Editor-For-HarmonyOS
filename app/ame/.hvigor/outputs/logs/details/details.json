@@ -27,13 +27,13 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "88b1deea6a18cfd0d1df1f0048d0946332fe61d1adc2bacb25e5f6a774b56cc5": {
-        "clean": 74325833
+        "clean": 76077125
       },
       "fbeb737a96db1cf88b8bd829dcd4dce774c4f0a1fe01613dd6b08912fb00e81a": {
-        "clean": 1164958
+        "clean": 732250
       },
       "APP": {
-        "clean": 145875
+        "clean": 82667
       }
     },
     "APIS": [],
@@ -42,7 +42,7 @@
       "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
     },
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202604301125414440",
-    "TOTAL_TIME": 862479708
+    "BUILD_ID": "202605011151425950",
+    "TOTAL_TIME": 1109755959
   }
 }
