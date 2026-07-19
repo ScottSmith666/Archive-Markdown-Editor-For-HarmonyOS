@@ -1,0 +1,60 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersionStage": "release",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "nativeLib": {
+            "collectAllLibs": true
+          }
+        },
+        "targetSdkVersion": "6.0.2(22)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame.p12",
+          "storePassword": "00000020B063C49B9A2DA21AC26DAB73CDEE38221B4037B6B2EA2057BFD2D13E26A664C0904FBB9C95F700CF81C51E2D",
+          "keyAlias": "ame_ssmith",
+          "keyPassword": "000000204C7CC3B64F6FC15DB3B3DD47D199535A4CD9123354848668C47256B00FAEE2D00DF3FFAE2548B8D5C316F1C1",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
+          "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "electron",
+      "srcPath": "./electron",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "web_engine",
+      "srcPath": "./web_engine"
+    }
+  ]
+}

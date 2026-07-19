@@ -1,1 +1,0 @@
-define("vs/json.worker-bFiRs_RG", ["require", "exports"], (function(require, r){"use strict";const e=""+new URL(require.toUrl("./assets/json.worker-CB4i5M_L.js"),document.baseURI).href;r.__worker_url_0__=e}));

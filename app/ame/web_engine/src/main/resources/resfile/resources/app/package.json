@@ -1,9 +1,0 @@
-{
-  "name": "electron-example",
-  "version": "1.0.0",
-  "description": "Electron simple example",
-  "main": "./out/main/index.js",
-  "scripts": {
-    "start": "electron ."
-  }
-}

@@ -1,0 +1,284 @@
+{
+  "version": 1,
+  "ohos-module-electron": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\src\\main",
+        "RESOURCES_PATH": [
+          "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": false
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json",
+          "SOURCE_MAP_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron\\build\\default\\intermediates\\source_map\\ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": false,
+        "copyFrom": "default",
+        "nativeLib": {
+          "collectAllLibs": true
+        },
+        "arkOptions": {
+          "obfuscation": {
+            "ruleOptions": {
+              "enable": false
+            }
+          }
+        },
+        "name": "release"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "arkOptions": {}
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-web_engine": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\src\\main",
+        "RESOURCES_PATH": [
+          "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": false
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": false,
+        "copyFrom": "default",
+        "nativeLib": {
+          "collectAllLibs": true
+        },
+        "name": "release",
+        "arkOptions": {
+          "obfuscation": {
+            "ruleOptions": {
+              "enable": false
+            },
+            "consumerFiles": [
+              "./consumer-rules.txt"
+            ]
+          }
+        }
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\build",
+    "BUNDLE_NAME": "com.scottsmith.ame",
+    "VERSION_CODE": 123,
+    "VERSION_NAME": "1.2.3",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "electron",
+        "srcPath": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\electron",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame"
+      },
+      {
+        "name": "web_engine",
+        "srcPath": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\web_engine",
+        "belongProjectPath": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.5(17)",
+            "compatibleSdkVersionStage": "release",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "nativeLib": {
+                "collectAllLibs": true
+              }
+            },
+            "targetSdkVersion": "6.0.2(22)"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ],
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame.p12",
+              "storePassword": "00000020B063C49B9A2DA21AC26DAB73CDEE38221B4037B6B2EA2057BFD2D13E26A664C0904FBB9C95F700CF81C51E2D",
+              "keyAlias": "ame_ssmith",
+              "keyPassword": "000000204C7CC3B64F6FC15DB3B3DD47D199535A4CD9123354848668C47256B00FAEE2D00DF3FFAE2548B8D5C316F1C1",
+              "signAlg": "SHA256withECDSA",
+              "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
+              "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
+            }
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "electron",
+          "srcPath": "./electron",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "web_engine",
+          "srcPath": "./web_engine"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}
