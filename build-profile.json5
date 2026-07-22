@@ -29,9 +29,9 @@
         "type": "HarmonyOS",
         "material": {
           "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame.p12",
-          "storePassword": "00000020B063C49B9A2DA21AC26DAB73CDEE38221B4037B6B2EA2057BFD2D13E26A664C0904FBB9C95F700CF81C51E2D",
+          "storePassword": "00000020ABAC24C87E0B0C7A9F0BAC58F33C61C1511A2DA4EA396B5EE005C928BE18D74745F978CBF850537D471791C0",
           "keyAlias": "ame_ssmith",
-          "keyPassword": "000000204C7CC3B64F6FC15DB3B3DD47D199535A4CD9123354848668C47256B00FAEE2D00DF3FFAE2548B8D5C316F1C1",
+          "keyPassword": "00000020FF6D7788F46CEE4FD5BD3C950C6FEA3C114AC001C229934906D4D1CAEE0563204244B0BD636BBB17278A1100",
           "signAlg": "SHA256withECDSA",
           "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
           "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"

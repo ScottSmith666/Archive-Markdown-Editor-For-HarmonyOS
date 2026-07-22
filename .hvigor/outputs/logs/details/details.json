@@ -34,13 +34,13 @@
     "BUILD_ANALYSIS_MODE": "normal",
     "TASK_TIME": {
       "88b1deea6a18cfd0d1df1f0048d0946332fe61d1adc2bacb25e5f6a774b56cc5": {
-        "clean": 326852600
+        "clean": 433348800
       },
       "fbeb737a96db1cf88b8bd829dcd4dce774c4f0a1fe01613dd6b08912fb00e81a": {
-        "clean": 5009200
+        "clean": 4988800
       },
       "APP": {
-        "clean": 392800
+        "clean": 304400
       }
     },
     "CUSTOM_TASK_TIME": {},
@@ -51,7 +51,7 @@
       "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
     },
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202607192351141680",
-    "TOTAL_TIME": 2213347400
+    "TOTAL_TIME": 667923600,
+    "BUILD_ID": "202607222328074480"
   }
 }

@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>Archive Markdown Editor</title>
-  <script type="module" crossorigin src="./assets/index-BOS6tjtI.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-5jVupyF1.css">
+  <script type="module" crossorigin src="./assets/index-CNSExdsu.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BvMo_qr4.css">
 </head>
 
 <body>
@@ -14,17 +14,14 @@
 <script>
     MathJax = {
         tex: {
-            inlineMath: [
+            inlineMath: [  // 行内公式选择符
                 ["$", "$"],
-                // ["\\(", "\\)"],
                 // ["\(", "\)"],
-                // ["\\[", "\\]"],
-            ], // 行内公式选择符
-            displayMath: [
+            ],
+            displayMath: [  // 段内公式选择符
                 ["$$", "$$"],
-                // ["\\[", "\\]"],
-                // ['?', '?'],
-            ], // 段内公式选择符
+                ["\[", "\]"],
+            ],
             packages: {'[+]': ['base', 'action', 'mhchem', 'ams']},
             processEscapes: true,
             processEnvironments: true // 允许识别 \begin{aligned} 等环境

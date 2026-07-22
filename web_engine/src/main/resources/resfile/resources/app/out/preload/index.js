@@ -44,6 +44,10 @@ const api = {
   },
   "permissionsPreload": {
     getPermissions: (callback) => electron.ipcRenderer.invoke("get-rw-permission")
+  },
+  "windowManPreload": {
+    getWindowWhAndPos: () => electron.ipcRenderer.invoke("get-window-wh-and-pos"),
+    setWindowWhAndPos: (whXyArray) => electron.ipcRenderer.send("set-window-wh-and-pos", whXyArray)
   }
 };
 if (process.contextIsolated) {
@@ -56,6 +60,7 @@ if (process.contextIsolated) {
     electron.contextBridge.exposeInMainWorld("loadLangPreload", api.loadLangPreload);
     electron.contextBridge.exposeInMainWorld("clipboardPreload", api.clipboardPreload);
     electron.contextBridge.exposeInMainWorld("permissionsPreload", api.permissionsPreload);
+    electron.contextBridge.exposeInMainWorld("windowManPreload", api.windowManPreload);
   } catch (error) {
     console.error(error);
   }
