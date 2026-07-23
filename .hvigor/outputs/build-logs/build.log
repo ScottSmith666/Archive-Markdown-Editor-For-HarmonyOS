@@ -4698,3 +4698,159 @@ Require stack:
 [2026-07-24T01:05:51.544] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-07-24T01:05:51.544] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-07-24T01:09:01.680] [DEBUG] debug-file - session manager: set active socket. socketId=GvO9ZZB3YUUTAMM4AAAd
+[2026-07-24T01:09:01.687] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-07-24T01:09:01.691] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-07-24T01:09:01.695] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-07-24T01:09:01.706] [DEBUG] debug-file - Cache service initialization finished in 11 ms 
+[2026-07-24T01:09:01.707] [DEBUG] debug-file - hvigorfile, resolving C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\hvigorfile.ts
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - Starting plugin build process
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - App plugin prepare start...
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - App plugin prepare end...
+[2026-07-24T01:09:01.720] [DEBUG] debug-file - App plugin creating...
+[2026-07-24T01:09:01.890] [DEBUG] debug-file - App plugin register hook start...
+[2026-07-24T01:09:01.890] [DEBUG] debug-file - App plugin register hook end...
+[2026-07-24T01:09:01.890] [DEBUG] debug-file - Plugin build process completed
+[2026-07-24T01:09:01.891] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-07-24T01:09:01.896] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-07-24T01:09:01.896] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-07-24T01:09:01.896] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-07-24T01:09:01.897] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-07-24T01:09:01.901] [DEBUG] debug-file - C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\build\cache\default\remote_hsp\remoteHspCache.json not exists.
+[2026-07-24T01:09:01.904] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-07-24T01:09:01.923] [DEBUG] debug-file - Sdk init in 22 ms 
+[2026-07-24T01:09:01.928] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-07-24T01:09:01.928] [DEBUG] debug-file - hvigorfile, begin to bind custom plugins...
+[2026-07-24T01:09:01.928] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\hvigorfile.ts
+[2026-07-24T01:09:01.928] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\hvigorfile.ts
+[2026-07-24T01:09:01.928] [DEBUG] debug-file - hvigorfile, resolving C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\electron\hvigorfile.ts
+[2026-07-24T01:09:01.931] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-07-24T01:09:01.932] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-07-24T01:09:01.932] [DEBUG] debug-file - Starting plugin build process
+[2026-07-24T01:09:01.932] [DEBUG] debug-file - Hap plugin creating...
+[2026-07-24T01:09:01.933] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=electron, buildMode=debug
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Module 'electron' target 'default' build option initialized
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Module 'electron' target 'ohosTest' build option initialized
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - End initialize module-target build option map, moduleName=electron
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=electron, buildMode=release
+[2026-07-24T01:09:01.940] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Module 'electron' target 'default' build option initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Module 'electron' target 'ohosTest' build option initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - End initialize module-target build option map, moduleName=electron
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=electron, buildMode=debug
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Module 'electron' target 'default' build option initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Module 'electron' target 'ohosTest' build option initialized
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - End initialize module-target build option map, moduleName=electron
+[2026-07-24T01:09:01.941] [DEBUG] debug-file - Obtain build option for module 'electron' target 'default'in this build.
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - Module electron task initialization takes 2 ms 
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - Plugin build process completed
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - hvigorfile, begin to bind custom plugins...
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\electron\hvigorfile.ts
+[2026-07-24T01:09:01.944] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\electron\hvigorfile.ts
+[2026-07-24T01:09:01.945] [DEBUG] debug-file - hvigorfile, resolving C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\web_engine\hvigorfile.ts
+[2026-07-24T01:09:01.947] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-07-24T01:09:01.947] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-07-24T01:09:01.947] [DEBUG] debug-file - Starting plugin build process
+[2026-07-24T01:09:01.947] [DEBUG] debug-file - Har plugin creating...
+[2026-07-24T01:09:01.948] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-07-24T01:09:01.985] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=web_engine, buildMode=debug
+[2026-07-24T01:09:01.985] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.985] [DEBUG] debug-file - Module 'web_engine' target 'default' build option initialized
+[2026-07-24T01:09:01.985] [DEBUG] debug-file - End initialize module-target build option map, moduleName=web_engine
+[2026-07-24T01:09:01.985] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=web_engine, buildMode=release
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Module 'web_engine' target 'default' build option initialized
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - End initialize module-target build option map, moduleName=web_engine
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=web_engine, buildMode=debug
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Target 'default' config initialized
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Module 'web_engine' target 'default' build option initialized
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - End initialize module-target build option map, moduleName=web_engine
+[2026-07-24T01:09:01.986] [DEBUG] debug-file - Obtain build option for module 'web_engine' target 'default'in this build.
+[2026-07-24T01:09:01.988] [DEBUG] debug-file - Module web_engine task initialization takes 2 ms 
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - Har plugin register hook start...
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - Har plugin register hook end...
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - Plugin build process completed
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - hvigorfile, begin to bind custom plugins...
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\web_engine\hvigorfile.ts
+[2026-07-24T01:09:01.989] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\web_engine\hvigorfile.ts
+[2026-07-24T01:09:02.047] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 58 ms 
+[2026-07-24T01:09:02.047] [DEBUG] debug-file - project has submodules:electron,web_engine
+[2026-07-24T01:09:02.047] [DEBUG] debug-file - module:web_engine no need to execute packageHap
+[2026-07-24T01:09:02.049] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-07-24T01:09:02.050] [DEBUG] debug-file - Module ame Collected Dependency: 
+[2026-07-24T01:09:02.050] [DEBUG] debug-file - Module ame's total dependency: 0
+[2026-07-24T01:09:02.051] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-07-24T01:09:02.095] [DEBUG] debug-file - Module electron Collected Dependency: C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\web_engine,C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\oh_modules\.ohpm\inversify@6.0.1\oh_modules\inversify,C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\oh_modules\.ohpm\reflect-metadata@0.2.1\oh_modules\reflect-metadata
+[2026-07-24T01:09:02.095] [DEBUG] debug-file - Module electron's total dependency: 3
+[2026-07-24T01:09:02.099] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-07-24T01:09:02.101] [DEBUG] debug-file - Module web_engine Collected Dependency: C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\oh_modules\.ohpm\inversify@6.0.1\oh_modules\inversify,C:\Users\scottsmith\project\Archive-Markdown-Editor-For-HarmonyOS\app\ame\oh_modules\.ohpm\reflect-metadata@0.2.1\oh_modules\reflect-metadata
+[2026-07-24T01:09:02.101] [DEBUG] debug-file - Module web_engine's total dependency: 2
+[2026-07-24T01:09:02.103] [DEBUG] debug-file - Configuration phase cost:397 ms 
+[2026-07-24T01:09:02.104] [DEBUG] debug-file - Configuration task cost before running: 413 ms 
+[2026-07-24T01:09:02.104] [DEBUG] debug-file - Executing task :electron:clean
+[2026-07-24T01:09:02.105] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-07-24T01:09:02.106] [DEBUG] debug-file - electron : clean cost memory 0.0830078125
+[2026-07-24T01:09:02.106] [DEBUG] debug-file - runTaskFromQueue task cost before running: 414 ms 
+[2026-07-24T01:09:02.106] [INFO] debug-file - Finished :electron:clean... after 2 ms 
+[2026-07-24T01:09:02.106] [DEBUG] debug-file - Executing task :web_engine:clean
+[2026-07-24T01:09:02.106] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-07-24T01:09:02.107] [DEBUG] debug-file - web_engine : clean cost memory 0.05423736572265625
+[2026-07-24T01:09:02.107] [DEBUG] debug-file - runTaskFromQueue task cost before running: 416 ms 
+[2026-07-24T01:09:02.107] [INFO] debug-file - Finished :web_engine:clean... after 2 ms 
+[2026-07-24T01:09:02.107] [DEBUG] debug-file - Executing task ::clean
+[2026-07-24T01:09:02.107] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-07-24T01:09:02.107] [DEBUG] debug-file - ame : clean cost memory 0.0256805419921875
+[2026-07-24T01:09:02.108] [DEBUG] debug-file - runTaskFromQueue task cost before running: 416 ms 
+[2026-07-24T01:09:02.108] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-07-24T01:09:02.115] [INFO] debug-file - BUILD SUCCESSFUL in 424 ms 
+[2026-07-24T01:09:02.132] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-07-24T01:09:02.132] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-07-24T01:09:02.148] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-07-24T01:09:02.149] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-07-24T01:09:02.156] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-07-24T01:09:02.156] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
