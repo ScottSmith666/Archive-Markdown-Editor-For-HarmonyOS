@@ -1,0 +1,72 @@
+{
+    "name": "archive-markdown-editor",
+    "version": "1.2.3",
+    "description": "A simple, beautiful and powerful markdown & mdz file editor.",
+    "main": "./out/main/index.js",
+    "author": "Scott Smith",
+    "keywords": [
+        "archive",
+        "markdown",
+        "editor",
+        "archive markdown editor"
+    ],
+    "files": [
+        "README.md",
+        "LICENSE",
+        "package.json"
+    ],
+    "homepage": "https://scottsmith666.github.io/",
+    "license": "MIT",
+    "scripts": {
+        "format": "prettier --write .",
+        "lint": "eslint --cache .",
+        "start": "electron .",
+        "dev": "electron-vite dev",
+        "build": "electron-vite build && node ./utils/copy-mathjax && node ./utils/syncver.js",
+        "build:unpack": "npm run build && electron-builder --dir",
+        "build:win": "npm run build && electron-builder --win",
+        "build:mac": "npm run build && electron-builder --mac",
+        "build:linux": "npm run build && electron-builder --linux",
+        "clean": "node ./utils/clear.js"
+    },
+    "dependencies": {
+        "@electron-toolkit/preload": "^3.0.2",
+        "@electron-toolkit/utils": "^4.0.0",
+        "@mdit/plugin-alert": "^0.23.2",
+        "@toycode/markdown-it-class": "^1.2.4",
+        "better-sqlite3": "^12.8.0",
+        "docx-preview": "^0.4.0",
+        "incremental-dom": "^0.7.0",
+        "markdown-it": "^14.1.1",
+        "markdown-it-emoji": "^3.0.0",
+        "markdown-it-incremental-dom": "^2.1.0",
+        "markdown-it-inject-linenumbers": "^0.3.0",
+        "markdown-it-mark": "^4.0.0",
+        "markdown-it-regex": "^0.2.2",
+        "markdown-it-task-lists": "^2.1.1",
+        "markdown-it-textual-uml": "^0.17.1",
+        "prismjs": "^1.30.0",
+        "vite-plugin-monaco-editor-nls": "^3.0.1",
+        "vue-router": "^4.6.4",
+        "vue3-zoomer": "^1.0.11",
+        "vuex": "^4.0.2",
+        "x-data-spreadsheet": "^1.1.9",
+        "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+    },
+    "devDependencies": {
+        "@electron-toolkit/eslint-config": "^2.1.0",
+        "@electron-toolkit/eslint-config-prettier": "^3.0.0",
+        "@vitejs/plugin-vue": "^6.0.2",
+        "electron": "^39.2.6",
+        "electron-builder": "^26.0.12",
+        "electron-rebuild": "^3.2.9",
+        "electron-vite": "^5.0.0",
+        "eslint": "^9.39.1",
+        "eslint-plugin-vue": "^10.6.2",
+        "less": "^4.6.7",
+        "prettier": "^3.7.4",
+        "vite": "^7.2.6",
+        "vue": "^3.5.25",
+        "vue-eslint-parser": "^10.2.0"
+    }
+}

@@ -28,13 +28,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame.p12",
-          "storePassword": "00000020A89FD1D653006A7A3863883BD89D606325B4FCB81957B4A91B1EE3CDB5A9E82505D468DC170C7F37E24E57AB",
-          "keyAlias": "ame_ssmith",
-          "keyPassword": "000000203D7064652E75AC477601FDFFB5BDF35B259320DD2152F03F31E02CEEA0BA36076A75EB4F2C3A0E78CABBFEB8",
+          "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
+          "storePassword": "000000260D9831BEC8E63CEC474B1414F1BEBE1FFD6565BCA92C5B3D4023F874A50B6CE65862D0822BCFE3D3071BE12EA7CB1430C1FC",
+          "keyAlias": "ame_ssmith-debug",
+          "keyPassword": "000000268613958DF4D0AE8C665E79A797A742A1189E2782ABF9092F7AFC8834E57D98B821768AF7D296FA1B39D13EE8A7B139B3688D",
           "signAlg": "SHA256withECDSA",
-          "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame-ssRelease.p7b",
-          "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
+          "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/ame-ss-debugDebug.p7b",
+          "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
         }
       }
     ]
