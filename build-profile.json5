@@ -29,11 +29,11 @@
         "type": "HarmonyOS",
         "material": {
           "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
-          "storePassword": "000000260D9831BEC8E63CEC474B1414F1BEBE1FFD6565BCA92C5B3D4023F874A50B6CE65862D0822BCFE3D3071BE12EA7CB1430C1FC",
+          "storePassword": "0000002605EC6F9E7F850E3CD72CA8A56D6140D8A332098FBD98C573C18D663B498268037E3D27D17FCDF42352748A2ED73899EE7529",
           "keyAlias": "ame_ssmith-debug",
-          "keyPassword": "000000268613958DF4D0AE8C665E79A797A742A1189E2782ABF9092F7AFC8834E57D98B821768AF7D296FA1B39D13EE8A7B139B3688D",
+          "keyPassword": "0000002609C442CE42CE6EB30CA5D020B64BFC38F2552ADE7197102694EE43EE9D0BBDCFBB947E06F99D3E462AB0E49265CEEA68B71C",
           "signAlg": "SHA256withECDSA",
-          "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/ame-ss-debugDebug.p7b",
+          "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/含有jit的debug profileDebug.p7b",
           "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
         }
       }

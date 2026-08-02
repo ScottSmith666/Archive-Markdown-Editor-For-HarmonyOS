@@ -50,6 +50,9 @@
         "name": "ohos.permission.LOCK_WINDOW_CURSOR"
       },
       {
+        "name": "ohos.permission.kernel.ALLOW_WRITABLE_CODE_MEMORY"
+      },
+      {
         "name": "ohos.permission.READ_PASTEBOARD",
         "reason": "$string:access_pasteboard",
         "usedScene": {

@@ -4,118 +4,26 @@
       {
         "MODULE_NAME": "88b1deea6a18cfd0d1df1f0048d0946332fe61d1adc2bacb25e5f6a774b56cc5",
         "API_TYPE": "stageMode",
-        "INCLUDE_IN_BUILD": true,
-        "IS_COMMAND_LINE_ENTRY_MODULE": true,
-        "BUILD_OPTION": [
-          {
-            "path": "debuggable",
-            "traceValue": true,
-            "value": false
-          },
-          {
-            "path": "copyFrom",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "nativeLib",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "nativeLib.collectAllLibs",
-            "traceValue": true,
-            "value": true
-          },
-          {
-            "path": "arkOptions",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation.ruleOptions",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation.ruleOptions.enable",
-            "traceValue": true,
-            "value": false
-          }
-        ],
+        "INCLUDE_IN_BUILD": false,
+        "IS_COMMAND_LINE_ENTRY_MODULE": false,
+        "BUILD_OPTION": [],
         "PACKAGE_JSON": [],
-        "MODULE_TYPE": "entry",
-        "INCREMENTAL_TASKS": {
-          "COMPILE_ARKTS": true
-        },
-        "IS_INCREMENTAL_MODULE": true
+        "IS_INCREMENTAL_MODULE": false
       },
       {
         "MODULE_NAME": "fbeb737a96db1cf88b8bd829dcd4dce774c4f0a1fe01613dd6b08912fb00e81a",
         "API_TYPE": "stageMode",
-        "INCLUDE_IN_BUILD": true,
+        "INCLUDE_IN_BUILD": false,
         "IS_COMMAND_LINE_ENTRY_MODULE": false,
-        "BUILD_OPTION": [
-          {
-            "path": "debuggable",
-            "traceValue": true,
-            "value": false
-          },
-          {
-            "path": "copyFrom",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "nativeLib",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "nativeLib.collectAllLibs",
-            "traceValue": true,
-            "value": true
-          },
-          {
-            "path": "arkOptions",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation.ruleOptions",
-            "traceValue": false,
-            "value": ""
-          },
-          {
-            "path": "arkOptions.obfuscation.ruleOptions.enable",
-            "traceValue": true,
-            "value": false
-          },
-          {
-            "path": "arkOptions.obfuscation.consumerFiles",
-            "traceValue": false,
-            "value": ""
-          }
-        ],
+        "BUILD_OPTION": [],
         "PACKAGE_JSON": [],
-        "MODULE_TYPE": "har",
-        "IS_INCREMENTAL_MODULE": true
+        "IS_INCREMENTAL_MODULE": false
       }
     ],
     "NATIVE_COMPILER": "Default",
-    "IS_FULL_BUILD": false,
+    "IS_FULL_BUILD": true,
     "PACKAGE_JSON": [],
-    "BUILD_MODE": "release"
+    "BUILD_MODE": "debug"
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -126,43 +34,24 @@
     "BUILD_ANALYSIS_MODE": "normal",
     "TASK_TIME": {
       "88b1deea6a18cfd0d1df1f0048d0946332fe61d1adc2bacb25e5f6a774b56cc5": {
-        "CreateModuleInfo": 753900,
-        "PreCheckSyscap": 387100,
-        "GeneratePkgContextInfo": 2704200,
-        "ProcessIntegratedHsp": 2243700,
-        "SyscapTransform": 1428400,
-        "ProcessStartupConfig": 876800,
-        "ConfigureCmake": 336700,
-        "BuildNativeWithCmake": 294200,
-        "CompileResource": 465110500,
-        "BuildNativeWithNinja": 493900,
-        "BuildJS": 3154100,
-        "CompileArkTS": 791216600,
-        "GeneratePkgModuleJson": 3097900,
-        "ProcessCompiledResources": 615000,
-        "PackageHap": 922065300,
-        "PackingCheck": 5718600,
-        "SignHap": 1056371000,
-        "CollectDebugSymbol": 4670900,
-        "assembleHap": 265200
+        "clean": 330060000
       },
       "fbeb737a96db1cf88b8bd829dcd4dce774c4f0a1fe01613dd6b08912fb00e81a": {
-        "ConfigureCmake": 465300,
-        "BuildNativeWithCmake": 378800,
-        "BuildNativeWithNinja": 775400
+        "clean": 5532600
+      },
+      "APP": {
+        "clean": 341800
       }
     },
     "CUSTOM_TASK_TIME": {},
     "CUSTOM_PLUGIN_TIME": {},
-    "APIS": [
-      "getProperty"
-    ],
+    "APIS": [],
     "CONFIG_EXPERIMENT": {
       "ENABLE_MODULE_SKIP": false,
       "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
     },
     "CONFIG_PROPERTIES": {},
-    "TOTAL_TIME": 3548263800,
-    "BUILD_ID": "202607250005562130"
+    "BUILD_ID": "202608022141260090",
+    "TOTAL_TIME": 3164174800
   }
 }
