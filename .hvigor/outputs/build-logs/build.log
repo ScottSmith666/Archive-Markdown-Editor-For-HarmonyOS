@@ -9316,3 +9316,15 @@ Require stack:
 [2026-08-05T07:24:55.064] [DEBUG] debug-file - session manager: send message to worker process.
 [2026-08-05T07:24:55.065] [DEBUG] debug-file - session manager: send message to worker process.
 [2026-08-05T07:24:55.149] [DEBUG] debug-file - Cleanup worker 0.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Cleanup worker 1.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-08-05T07:24:55.149] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-08-05T07:24:55.150] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-08-05T07:24:55.156] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-08-05T07:24:55.156] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-08-05T07:24:55.161] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-08-05T07:24:55.162] [DEBUG] debug-file - worker[0] exits with exit code 1.
