@@ -186,8 +186,8 @@
     "SELECT_PRODUCT_NAME": "default",
     "MODULE_BUILD_DIR": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\build",
     "BUNDLE_NAME": "com.scottsmith.ame",
-    "VERSION_CODE": 123,
-    "VERSION_NAME": "1.2.3",
+    "VERSION_CODE": 125,
+    "VERSION_NAME": "1.2.5",
     "BUILD_PATH": {
       "OUTPUT_PATH": "C:\\Users\\scottsmith\\project\\Archive-Markdown-Editor-For-HarmonyOS\\app\\ame\\build\\outputs\\default"
     },
@@ -241,13 +241,13 @@
             "name": "default",
             "type": "HarmonyOS",
             "material": {
-              "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/ame-debug.p12",
-              "storePassword": "0000002605EC6F9E7F850E3CD72CA8A56D6140D8A332098FBD98C573C18D663B498268037E3D27D17FCDF42352748A2ED73899EE7529",
-              "keyAlias": "ame_ssmith-debug",
-              "keyPassword": "0000002609C442CE42CE6EB30CA5D020B64BFC38F2552ADE7197102694EE43EE9D0BBDCFBB947E06F99D3E462AB0E49265CEEA68B71C",
+              "storeFile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/ame.p12",
+              "storePassword": "000000200C0934FE535B1876AF499B89F36FF0D04447DDDAF630D8BE05C8FDF774B614C2C7A23CE80AF06772FF364117",
+              "keyAlias": "ame_ssmith",
+              "keyPassword": "00000020139115F230B857C754FFDD2F7E72CB547EE5740CF760787007FEACD4E076FD505DEF9419227C2086FCFA9867",
               "signAlg": "SHA256withECDSA",
-              "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/含有jit的debug profileDebug.p7b",
-              "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/debug-cert/AME-debug.cer"
+              "profile": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/含有jit的正式profileRelease.p7b",
+              "certpath": "C:/Users/scottsmith/project/HarmonyOS-AME-Cert/release-cert/Archive-Markdown-Editor.cer"
             }
           }
         ]

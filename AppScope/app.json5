@@ -2,8 +2,8 @@
   "app": {
     "bundleName": "com.scottsmith.ame",
     "vendor": "Scott Smith",
-    "versionCode": 123,
-    "versionName": "1.2.3",
+    "versionCode": 125,
+    "versionName": "1.2.5",
     "icon": "$media:app_icon",
     "label": "$string:app_name",
     "configuration": "$profile:configuration",
