@@ -48,7 +48,25 @@
             ],
             "uris": [
               {
-                "scheme": "link"
+                // 打开mdz文件
+                "scheme": "file",
+                // 必填，声明协议类型为文件
+                "type": "com.scottsmith.ame.mdz",
+                // 必填，表示支持打开的文件类型，支持MIME和UniformDataType
+                "linkFeature": "FileOpen"
+                // 必填且大小写敏感，表示此URI的功能为文件打开
+              },
+              {
+                // 打开md文件
+                "scheme": "file",
+                "type": "com.scottsmith.ame.md",
+                "linkFeature": "FileOpen"
+              },
+              {
+                // 打开txt文件
+                "scheme": "file",
+                "type": "general.plain-text",
+                "linkFeature": "FileOpen"
               }
             ]
           }

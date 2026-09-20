@@ -1,0 +1,18 @@
+{
+  "UniformDataTypeDeclarations": [
+    {
+      "TypeId": "com.scottsmith.ame.mdz",
+      "BelongingToTypes": ["general.file"],
+      "FilenameExtensions": [".mdz"],
+      "MIMETypes": ["application/prs.archive-markdown-format"],
+      "Description": "Archive Markdown Format."
+    },
+    {
+      "TypeId": "com.scottsmith.ame.md",
+      "BelongingToTypes": ["general.file"],
+      "FilenameExtensions": [".md"],
+      "MIMETypes": ["text/markdown"],
+      "Description": "Markdown Format."
+    }
+  ]
+}
